@@ -19,6 +19,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_analytics: ^10.1.6
+  firebase_app_check: ^0.1.1
+  firebase_auth: ^4.3.0
+  firebase_storage: ^11.0.16
+  firebase_messaging: ^14.3.0
+  cloud_functions: ^4.0.13
+  cloud_firestore: ^4.4.5
+  firebase_crashlytics: ^3.0.17
+  firebase_performance: ^0.9.0
+  firebase_database: ^10.0.16
+  firebase_remote_config: ^3.0.15
+  firebase_core: ^2.8.0
+  fluttertoast: ^8.2.2
 
 dev_dependencies:
   flutter_test:
@@ -43,9 +56,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/p1.jpg
+    - assets/p2.jpg
+    - assets/p3.jpg
+    - assets/p4.png
+    - assets/p5.jpeg
+    - assets/p6.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
