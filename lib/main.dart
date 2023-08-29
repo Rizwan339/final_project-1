@@ -6,6 +6,8 @@ import 'package:mamas_recipe/theme.dart';
 import 'routes.dart';
 
 void main() async {
+  ui.platformViewRegistry.registerViewFactory(
+      'example', (_) => DivElement()..innerText = 'Hello, HTML!');
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
