@@ -1,34 +1,77 @@
 {
   "project_info": {
-    "project_number": "993855151025",
-    "project_id": "mamas-recipe-148a1",
-    "storage_bucket": "mamas-recipe-148a1.appspot.com"
+    "project_number": "744663773367",
+    "project_id": "final-project-81900",
+    "storage_bucket": "final-project-81900.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:993855151025:android:45fb53a53f86051ba8bb90",
+        "mobilesdk_app_id": "1:744663773367:android:cbea9a5f822b434e439d32",
         "android_client_info": {
-          "package_name": "com.example.mamas_recipe"
+          "package_name": "com.example.final_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "993855151025-ktdk0tjgnrq218r4aq4mv3dmrl2sv62l.apps.googleusercontent.com",
+          "client_id": "744663773367-tochbmitu88u42g1tius2cfbjgnf29af.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCbNZlrG99222bHFQpI80U1uDFttYvyRRM"
+          "current_key": "AIzaSyDyMKzPSOEJOKvx14PQwt-MJa_Ap6SEJwI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "993855151025-ktdk0tjgnrq218r4aq4mv3dmrl2sv62l.apps.googleusercontent.com",
+              "client_id": "744663773367-tochbmitu88u42g1tius2cfbjgnf29af.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "744663773367-8nr0etg24a71lv1r2iqjg71mra66e81s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.finalProject"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744663773367:android:6a09a1b2cc7d96a3439d32",
+        "android_client_info": {
+          "package_name": "com.example.mamas_recipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744663773367-tochbmitu88u42g1tius2cfbjgnf29af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyMKzPSOEJOKvx14PQwt-MJa_Ap6SEJwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744663773367-tochbmitu88u42g1tius2cfbjgnf29af.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "744663773367-8nr0etg24a71lv1r2iqjg71mra66e81s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.finalProject"
+              }
             }
           ]
         }

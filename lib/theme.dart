@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 final themeData = ThemeData(
-  iconTheme: IconThemeData(color: Colors.yellow),
+  iconTheme: const IconThemeData(color: Colors.yellow),
   primarySwatch: MaterialColor(0xff880808, <int, Color>{
     50: Colors.red.shade50,
     100: Colors.red.shade100,
@@ -16,7 +16,7 @@ final themeData = ThemeData(
   }),
   primaryColorLight: Colors.red.shade900,
   appBarTheme: AppBarTheme(backgroundColor: Colors.red.shade900),
-  textTheme: TextTheme(
+  textTheme: const TextTheme(
     bodyMedium: TextStyle(
         fontWeight: FontWeight.bold,
         fontStyle: FontStyle.italic,
@@ -29,11 +29,11 @@ final themeData = ThemeData(
     ),
     focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(30),
-      borderSide: BorderSide(color: Colors.green),
+      borderSide: const BorderSide(color: Colors.green),
     ),
     errorBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(30),
-      borderSide: BorderSide(color: Colors.red),
+      borderSide: const BorderSide(color: Colors.red),
     ),
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(

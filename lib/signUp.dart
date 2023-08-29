@@ -41,7 +41,7 @@ class _SignUpState extends State<SignUp> {
       });
       if (context.mounted) {
         Navigator.of(context).push(
-          MaterialPageRoute(builder: (context) => Dashboard()),
+          MaterialPageRoute(builder: (context) => const Dashboard()),
         );
       }
     } catch (e) {

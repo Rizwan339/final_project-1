@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'firstScreen.dart';
 import 'home.dart';
-import 'signUp.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
@@ -16,12 +15,12 @@ class _DashboardState extends State<Dashboard> {
   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
-  List screens = [
+  late final List screens = [
     Home(
-        name: "nameController.text",
-        email: "emailController.text",
-        password: "passwordController.text"),
-    First()
+        name: nameController.text,
+        email: emailController.text,
+        password: passwordController.text),
+    const First()
   ];
   int index = 0;
 

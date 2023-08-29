@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Mamas Recipe"),
+        title: const Text("Mamas Recipe"),
         actions: [
           GestureDetector(
               onTap: () {
@@ -41,13 +41,13 @@ class _HomeState extends State<Home> {
                       ));
                 });
               },
-              child: Icon(Icons.person)),
+              child: const Icon(Icons.person)),
         ],
       ),
       body: Column(
         children: [
           Padding(
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             child: Row(
               children: [
                 Container(
@@ -58,7 +58,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(15),
                         image: DecorationImage(
                             image: img1.image, opacity: 0.6, fit: BoxFit.fill)),
-                    child: Stack(
+                    child: const Stack(
                       children: [
                         Positioned(
                           bottom: 45,
@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
                         )
                       ],
                     )),
-                SizedBox(
+                const SizedBox(
                   width: 20,
                 ),
                 Container(
@@ -78,7 +78,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(15),
                         image: DecorationImage(
                             image: img2.image, opacity: 0.6, fit: BoxFit.fill)),
-                    child: Stack(
+                    child: const Stack(
                       children: [
                         Positioned(
                           bottom: 45,
@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             child: Row(
               children: [
                 Container(
@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(15),
                         image: DecorationImage(
                             image: img3.image, opacity: 0.6, fit: BoxFit.fill)),
-                    child: Stack(
+                    child: const Stack(
                       children: [
                         Positioned(
                           bottom: 45,
@@ -111,7 +111,7 @@ class _HomeState extends State<Home> {
                         )
                       ],
                     )),
-                SizedBox(
+                const SizedBox(
                   width: 20,
                 ),
                 Container(
@@ -122,7 +122,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(15),
                         image: DecorationImage(
                             image: img4.image, opacity: 0.6, fit: BoxFit.fill)),
-                    child: Stack(
+                    child: const Stack(
                       children: [
                         Positioned(
                           bottom: 45,
@@ -135,7 +135,7 @@ class _HomeState extends State<Home> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             child: Row(
               children: [
                 Container(
@@ -146,7 +146,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(15),
                         image: DecorationImage(
                             image: img5.image, opacity: 0.6, fit: BoxFit.fill)),
-                    child: Stack(
+                    child: const Stack(
                       children: [
                         Positioned(
                           bottom: 45,
@@ -155,7 +155,7 @@ class _HomeState extends State<Home> {
                         )
                       ],
                     )),
-                SizedBox(
+                const SizedBox(
                   width: 20,
                 ),
                 Container(
@@ -166,7 +166,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(15),
                         image: DecorationImage(
                             image: img6.image, opacity: 0.6, fit: BoxFit.fill)),
-                    child: Stack(
+                    child: const Stack(
                       children: [
                         Positioned(
                           bottom: 45,
